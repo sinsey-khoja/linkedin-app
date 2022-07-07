@@ -1,0 +1,50 @@
+.mainDiv{
+  display: flex;
+  width: 420px;
+  align-items: center;
+  justify-content: space-between;
+  .profile {
+    display: flex;
+    padding: 18px 0 20px 32px;
+    img {
+      width: 42px;
+      height: 42px;
+    }
+    
+    .pr-texts {
+      padding-left:15px ;
+      display: flex;
+      flex-direction: column;
+      .name {
+        font-size: 12px;
+        line-height: 11px;
+        text-transform: uppercase;
+        
+        color: #181818;
+        
+        span {
+          font-size: 12px;
+          line-height: 11px;
+          text-transform: uppercase;
+          
+          color: rgba(24, 24, 24, 0.2);
+        }
+      }
+      
+      .text {
+        padding-top:11px ;
+        font-size: 12px;
+        line-height: 11px;
+        
+        color: #747474;
+        
+        span {
+          font-size: 12px;
+          line-height: 11px;
+          
+          color: #02B033;
+        }
+      }
+    }
+  }
+}

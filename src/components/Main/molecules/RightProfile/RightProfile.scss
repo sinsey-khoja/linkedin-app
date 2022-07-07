@@ -1,0 +1,48 @@
+.right-profile {
+  margin-top: 40px;
+  height: 280px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .right-profile__info {
+    margin-top: -50px;
+    text-align: center;
+
+    h3 {
+      font-size: 14px;
+      line-height: 13px;
+
+      color: #181818;
+    }
+
+    p {
+      width: 240px;
+      font-size: 10px;
+      line-height: 150%;
+      /* or 15px */
+
+      text-align: center;
+
+      color: #181818;
+    }
+  }
+}
+
+.write {
+  margin-top: 20px;
+  padding: 20px 30px 23px;
+  background: #FFFFFF;
+
+  h3 {
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 48px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px;
+  }
+}

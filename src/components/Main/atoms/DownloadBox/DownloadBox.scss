@@ -1,0 +1,26 @@
+.download-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #E9F0F8;
+  padding: 20px 30px;
+
+  .download-file {
+    display: flex;
+    gap: 15px;
+
+    .name {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%;
+      color: #181818;
+    }
+
+    .text {
+      padding-top: 5px;
+      font-size: 10px;
+      line-height: 150%;
+      color: #181818;
+    }
+  }
+}

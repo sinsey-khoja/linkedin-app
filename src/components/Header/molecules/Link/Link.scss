@@ -1,0 +1,17 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #181818;
+  }
+}

@@ -1,0 +1,14 @@
+.grup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 231px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid #F4F4F4;
+  border-radius: 6px;
+
+  p {
+    width: 131px;
+  }
+}
